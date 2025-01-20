@@ -1,0 +1,70 @@
+h1{
+font-size:  28px;
+font-weight: bolder;
+text-align: center;
+}
+p{
+    text-align: center;
+}
+/* Add this to your existing CSS file */
+
+@media (max-width: 768px) {
+  .form {
+    padding: 20px;
+  }
+
+  .regi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 100%;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 100%;
+  }
+
+  .text-xl {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .text-gray-600 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .btn3 {
+    padding: 10px; /* Adjust padding for buttons */
+  }
+
+  #cross {
+    font-size: 1.5rem; /* Adjust close button size */
+  }
+
+  .para3 {
+    font-size: 0.9rem; /* Adjust paragraph size */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-sm {
+    font-size: 0.8rem; /* Further adjust font size for very small screens */
+  }
+
+  .mt-4 {
+    margin-top: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .border-b {
+    width: 100%; /* Make borders full width on small screens */
+  }
+}
