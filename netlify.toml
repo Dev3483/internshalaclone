@@ -1,0 +1,15 @@
+[build]
+  base = "frontend"      # Change to the frontend folder
+  publish = "build"      # Directory where React builds the app
+  command = "npm run build"  # Build command for React
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://localhost:5000/:splat"  # Replace with your backend port
+  status = 200
+  force = true
